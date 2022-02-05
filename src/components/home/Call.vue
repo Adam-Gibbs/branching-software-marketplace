@@ -21,7 +21,7 @@
           >What is Path to Zero Marketplace?</span
         >
         <h2 class="mt-8 mb-6 lg:mb-10 text-4xl font-semibold">
-          We link anyone passionate about green change with organisations who
+          We link those passionate about green change with organisations who
           need it.
         </h2>
         <p class="mb-6 lg:mb-12 text-xl text-gray-500">

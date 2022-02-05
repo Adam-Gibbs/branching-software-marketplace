@@ -18,12 +18,30 @@ const routes = [
     component: () => import("../views/SignUp.vue"),
   },
   {
+    path: "/proposals",
+    name: "Proposals",
+    component: () => import("../views/Proposals.vue"),
+  },
+  {
+    path: "/messages",
+    name: "Messages",
+    component: () => import("../views/Messages.vue"),
+    meta: {
+      authRequired: true,
+    },
+  },
+  {
+    path: "/projects",
+    name: "Projects",
+    component: () => import("../views/Projects.vue"),
+    meta: {
+      authRequired: true,
+    },
+  },
+  {
     path: "/:catchAll(.*)",
     name: "Else",
     component: () => import("../views/404.vue"),
-    meta: {
-      authRequired: false,
-    },
   },
 ];
 
