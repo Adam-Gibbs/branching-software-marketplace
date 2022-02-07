@@ -1,11 +1,14 @@
 <template>
   <div
-    class="xl:hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50"
+    class="xl:hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50"
+    aria-labelledby="slide-over-title"
+    role="dialog"
+    aria-modal="true"
   >
     <div
-      class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"
+      class="fixed inset-0 bg-gray-800 opacity-50 transition-opacity"
       @click="emitHide()"
-    ></div>
+    />
     <nav
       class="relative flex flex-col py-4 px-4 w-full h-full bg-white border-r overflow-y-auto"
     >

@@ -1,9 +1,6 @@
 <template>
   <div class="px-8 py-4 flex w-full items-center">
-    <ul class="hidden xl:flex font-semibold font-heading items-center">
-      <Locations />
-    </ul>
-    <button class="xl:mx-auto text-2xl font-bold font-heading">
+    <button class="text-2xl font-bold font-heading">
       <img
         class="h-9 mx-auto"
         src="@/assets/icon.svg"
@@ -11,7 +8,12 @@
       />
       Path to Zero Marketplace
     </button>
-    <div class="hidden xl:inline-block">
+    <ul
+      class="hidden xl:flex mr-auto ml-10 font-semibold font-heading items-center"
+    >
+      <Locations />
+    </ul>
+    <div class="hidden ml-10 xl:inline-block">
       <input
         class="py-5 px-8 w-full placeholder-gray-400 text-xs uppercase font-semibold font-heading bg-gray-50 border border-gray-200 focus:ring-blue-300 focus:border-blue-300 rounded-md"
         type="text"

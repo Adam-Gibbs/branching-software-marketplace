@@ -47,7 +47,7 @@ export default defineComponent({
     logOut() {
       localStorage.clear();
       router.push({
-        name: "Log In",
+        name: "Home",
       });
     },
   },
