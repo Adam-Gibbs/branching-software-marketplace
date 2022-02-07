@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 bg-gray-100">
+  <section class="py-12 bg-gray-100">
     <div class="container mx-auto px-4">
       <h2 class="mb-16 text-4xl font-bold font-heading">FAQs</h2>
       <ul>
