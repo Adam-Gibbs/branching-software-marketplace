@@ -1,6 +1,6 @@
 <template>
   <div class="w-full md:w-1/2 lg:w-1/4 p-3">
-    <div class="relative h-full text-center pt-16 bg-white">
+    <div class="relative h-full text-center pt-16 bg-white rounded-lg shadow">
       <div class="pb-12 border-b">
         <span
           class="inline-flex mb-16 items-center justify-center w-20 h-20 rounded-full"

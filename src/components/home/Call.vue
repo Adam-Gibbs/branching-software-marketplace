@@ -31,12 +31,12 @@
           one change at a time.
         </p>
         <button
-          class="inline-block w-full md:w-auto mb-2 mr-4 py-4 px-8 text-sm font-medium leading-normal bg-green-main hover:bg-green-highlight text-white rounded transition"
+          class="inline-block w-full md:w-auto mb-2 mr-4 py-4 px-8 text-sm font-medium leading-normal bg-green-main hover:bg-green-highlight text-white rounded transition shadow"
           @click="$router.push('/signup')"
         >
           Sign Up</button
         ><a
-          class="inline-block w-full md:w-auto mb-2 py-4 px-8 text-sm font-medium leading-normal border bg-white border-gray-300 hover:border-gray-400 rounded"
+          class="inline-block w-full md:w-auto mb-2 py-4 px-8 text-sm font-medium leading-normal bg-white hover:bg-gray-200 transition rounded shadow"
           @click="$router.push('/proposals')"
           href="#"
           >View Proposals</a

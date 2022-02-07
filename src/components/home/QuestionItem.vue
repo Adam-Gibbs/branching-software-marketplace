@@ -1,6 +1,6 @@
 <template>
   <li
-    class="pr-8 md:pr-12 my-4 bg-gray-50 cursor-pointer"
+    class="pr-8 md:pr-12 my-4 bg-white cursor-pointer rounded-r-lg shadow"
     :class="activated ? 'py-12' : 'py-6'"
     @click="activated = !activated"
   >

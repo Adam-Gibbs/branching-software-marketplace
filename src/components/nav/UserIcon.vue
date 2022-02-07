@@ -1,6 +1,6 @@
 <template>
   <button
-    class="flex px-6 font-semibold font-heading hover:text-gray-600"
+    class="flex px-6 py-2 m-2 font-semibold font-heading hover:text-green-main hover:border-green-main border-2 rounded-xl transition"
     @click="$router.push('/signup')"
     v-if="!name"
   >
@@ -8,7 +8,7 @@
     <p>Sign&nbsp;Up</p>
   </button>
   <button
-    class="flex px-6 font-semibold font-heading hover:text-gray-600"
+    class="flex px-6 py-2 m-2 font-semibold font-heading hover:text-green-main hover:border-green-main border-2 rounded-xl transition"
     @click="$router.push('/login')"
     v-if="!name"
   >

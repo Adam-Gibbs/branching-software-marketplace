@@ -53,14 +53,28 @@ import {
   faTrash,
   faUser,
   faUserPlus,
+  faSearch,
 } from "@fortawesome/free-solid-svg-icons";
+
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
+
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faLinkedinIn,
   faAngleDoubleDown,
   faAngleDoubleUp,
   faArrowDown,
   faAt,
+  faSearch,
   faCalendarDay,
   faCamera,
   faCheck,
